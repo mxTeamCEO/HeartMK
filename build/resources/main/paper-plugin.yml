@@ -1,0 +1,15 @@
+name: HeartMK
+version: '1.0'
+main: org.gentuwu.heartMK.HeartMK
+api-version: '1.21'
+prefix: [ HeartMK ]
+authors: [ GentUwU ]
+description: Plugin for improvements on MK server
+website: https://github.com/mxTeamCEO
+has-open-classloader: false
+load: STARTUP
+commands:
+  mv:
+    description: Renames the item in hand
+  head:
+    description: Puts the item in hand on the player's head
